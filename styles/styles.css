@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+header h1 {
+  margin: 0px;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.764);
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  margin-right: 70%;
+}
+.entete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ul li {
+  display: inline;
+  margin-left: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+article a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(25, 165, 241);
+  padding: 10px;
+  text-transform: uppercase;
+}
+a[href="https://google.com"]
+{
+  color: rgb(53, 44, 33);
+}
+article {
+  border: 1px solid black;
+  width: 40%;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 70px;
+}
+article img{
+width: 100%;
+}
+.content{
+  padding: 5%;
+}
+
+section[id="partie2"] {
+  background-color: black;
+  padding: 15px;
+  margin-top: 50px;
+}
+section[id="partie2"] * {
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+}
+section[id="partie3"]{
+  margin: 70px;
+}
+section[id="partie3"] h1 {
+  text-align: center;
+}
+section[id="partie3"] iframe {
+  width: 560;
+  margin-left: 32%;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.764);
+  color: white;
+  padding: 15px;
+  margin: 0px;
+  text-align: center;
+}
